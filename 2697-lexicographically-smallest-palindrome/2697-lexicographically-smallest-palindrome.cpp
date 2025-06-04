@@ -6,7 +6,6 @@ public:
         
         while (i < j) {
             if (s[i] != s[j]) {
-                // Set both to the smaller character
                 char smaller = min(s[i], s[j]);
                 s[i] = s[j] = smaller;
             }
